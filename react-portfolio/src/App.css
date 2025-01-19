@@ -5,8 +5,9 @@
   font-style: normal; /* Optional */
 }
 body, html{
-  height: 100vh;
   margin: 0;
+  height: 100%;
+  
 }
 body{
   background-color: rgb(54, 63, 100);
@@ -30,7 +31,7 @@ body{
   box-shadow: 0 -1px 0 0 white; /* White border above the gray */
 }
 .gridContainer {
-  display: grid;
+  display: none;
   grid-template-rows: repeat(7, 1fr);  /* 7 rows, 1 item per row */
   gap: 10px;  /* Space between items */
   padding: 20px;
