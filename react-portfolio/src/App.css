@@ -16,7 +16,7 @@ body{
   align-content: center;
 }
 .bottomBar{
-  position: absolute;
+  position: fixed;
   left: 0;
   display: flex;
   align-items: center;
@@ -54,9 +54,7 @@ body{
   transition: 0.1s;
   background-color: rgba(39, 39, 39, 0.274);
 }
-.projects{
 
-}
 .description{
   display: flex;
   justify-content: center;
