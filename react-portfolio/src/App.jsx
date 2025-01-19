@@ -31,7 +31,13 @@ function App() {
             paddingRight:"20px",
             fontSize:"1rem",
             fontFamily: 'Windows95Font',
-            cursor:"pointer"
+            cursor:"pointer",
+            borderStyle: "outset",
+            borderColor: "buttonborder",
+            borderImage: "initial",
+            fontFamily: 'Windows95Font',
+            color:"black",
+            backgroundColor:"#f9f9f9"
           }}>About me</button>
           <p className='email'
           style={{
@@ -73,6 +79,7 @@ function App() {
             marginRight:"30px",
             height:"auto",
             maxHeight:"100%",
+            color:"black",
 
             fontFamily: "Windows95Font",
 
