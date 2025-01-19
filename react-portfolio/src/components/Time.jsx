@@ -14,7 +14,6 @@ export default function Time(){
     },[])
     return(
         <div style={{
-            position:"fixed",
             right:"20px"
 
 
