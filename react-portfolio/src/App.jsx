@@ -23,9 +23,14 @@ function App() {
     </div>
     
         <div className ="bottomBar">
-          
+          <div style={{
+            display:"flex",
+            justifyContent:"center",
+            alignItems:"center",
+            height:"70%"
+          }}>
           <button onClick={handleClick} style={{
-            height:"70%",
+            height:"100%",
             marginLeft:"10px",
             paddingLeft:"20px",
             paddingRight:"20px",
@@ -46,7 +51,7 @@ function App() {
             marginLeft:"12px",
             paddingLeft:"15px",
             paddingRight:"15px",
-            height:"64%",
+            height:"90%",
             borderWidth: "2px",
             borderStyle: "outset",
             borderColor: "buttonborder",
@@ -56,7 +61,11 @@ function App() {
           }}>
             matthew.phang@torontomu.ca
           </p>
-          <Time />
+          </div>
+
+          <Time style={{
+            marginRight:"50px"
+          }}></Time>
         </div>
         {isBoxVisible &&(
             <NewScreen topBarText="Hi, I'm Matthew"exitClick={handleClick}> 
