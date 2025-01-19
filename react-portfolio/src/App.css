@@ -31,13 +31,12 @@ body{
   box-shadow: 0 -1px 0 0 white; /* White border above the gray */
 }
 .gridContainer {
-  display: none;
+  display: grid;
+  position: absolute;  /* Position it in the top-left corner */
   grid-template-rows: repeat(7, 1fr);  /* 7 rows, 1 item per row */
   gap: 10px;  /* Space between items */
   padding: 20px;
   padding-top: 0;
-  max-height: 80%;  /* Make the grid container take up full height */
-  position: absolute;  /* Position it in the top-left corner */
   top: 0;
   left: 0;
   
