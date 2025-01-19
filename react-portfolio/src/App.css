@@ -15,13 +15,14 @@ body{
   align-content: center;
 }
 .bottomBar{
+  margin: 0;
   position: absolute;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(187, 187, 187);
-  height: 9%;
+
   width: 100%;
 
   bottom: 0;
