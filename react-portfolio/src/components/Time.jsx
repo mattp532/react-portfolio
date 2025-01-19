@@ -14,6 +14,10 @@ export default function Time(){
     },[])
     return(
         <div style={{
+            right:"20px",
+            bottom:"50%",
+            paddingRight:"10px"
+
         }}> 
                     <p style={{fontFamily: "Windows95Font",marginTop:0, color: 'black', marginBottom:0,fontSize:"0.9rem"}}>{time.toLocaleTimeString()}</p>
 

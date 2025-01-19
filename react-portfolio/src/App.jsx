@@ -22,7 +22,7 @@ function App() {
     <Folder alt ="Folder Icon" title="My Projects"/>
     </div>
     
-        {/*<div className ="bottomBar">
+        <div className ="bottomBar">
           <div style={{
             display:"flex",
             justifyContent:"center",
@@ -51,7 +51,7 @@ function App() {
             marginLeft:"12px",
             paddingLeft:"15px",
             paddingRight:"15px",
-            height:"90%",
+            height:"100%",
             borderWidth: "2px",
             borderStyle: "outset",
             borderColor: "buttonborder",
@@ -66,7 +66,7 @@ function App() {
           <Time style={{
             marginRight:"50px"
           }}></Time>
-        </div>*/}
+        </div>
         {isBoxVisible &&(
             <NewScreen topBarText="Hi, I'm Matthew"exitClick={handleClick}> 
                     <div
