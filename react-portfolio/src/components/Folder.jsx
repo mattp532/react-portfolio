@@ -42,7 +42,7 @@ export default function Icon({alt,title,link}){
 
 
             }}className = "ProjectGrid" >
-                <Project link="https://github.com/mattp532/Lingify" title="Lingify" languages = {["React JS", "Tailwind CSS"]} description="An online quiz platform designed to help users practice a new language by providing common English phrases and their translations in your target language."/>
+                <Project link="https://github.com/mattp532/Lingify" title="Lingify" languages = {["React JS", "Tailwind CSS"]} description="An online quiz platform that helps you practice a new language by providing common English phrases and their translations."/>
                 <Project link = "https://github.com/mattp532/PokeStudy" title="PokeStudy" languages={["Javascript", "HTML/CSS"]} description ="A fun and interactive study timer that lets you collect and save pokemon based on complete study sessions"/>
 
             </div>
