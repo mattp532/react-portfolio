@@ -6,22 +6,28 @@ import Folder from './components/Folder'
 import NewScreen from './components/NewScreen'
 import Project from './components/Project'
 import thisMe from './assets/thisMe.jpg'
+import Resume from './assets/Resume.pdf'
+import ResumeC from './components/ResumeC'
 function App() {
       const [isBoxVisible,setIsBoxVisible] = useState(false);
       function handleClick(){
       setIsBoxVisible(!isBoxVisible);
   }
+  function openPDF() {
+    window.open(Resume, '_blank');
+  }
 
   return (
     <>
-
     <div className="gridContainer">
     <Icon alt="Linkedin Icon" title ="LinkedIn" link="https://www.linkedin.com/in/matthew-phang-b4a60a326?originalSubdomain=ca"/>
     <Icon alt="Gihub Icon" title ="GitHub" link ="https://github.com/mattp532"/>
     <Icon alt ="Goodreads Icon" title="GoodReads" link = "https://www.goodreads.com/user/show/183601082-matthew-phang"/>
     <Folder alt ="Folder Icon" title="My Projects"/>
+    <ResumeC onClick= {openPDF}alt ="Paper Icon" title="My Resume"/>
+
     </div>
-    
+
         <div className ="bottomBar">
           <div style={{
             display:"flex",
@@ -79,6 +85,7 @@ function App() {
 
 
         }}>
+
           <div className="aboutMeScreen" style={{
             display:"flex",
             overflow: "auto"

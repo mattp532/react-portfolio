@@ -7,7 +7,7 @@ export default function Time(){
     const month = time.getMonth() + 1; // getMonth() returns 0-11, so add 1
     const day = time.getDate();
     const formattedDate = `${month}/${day}/${year}`; // Example format: MM/DD/YYYY
-    const formattedTime = time.toLocaleTimeString(); // Get the time as HH:MM:SS
+    const formattedTime = time.toLocaleTimeString(); 
  
     useEffect(()=>{
         setInterval(()=>setTime(new Date()),1000)

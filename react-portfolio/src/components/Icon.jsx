@@ -2,17 +2,19 @@ import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 import goodreads from '../assets/goodreads.png';
 import folder from '../assets/folder.png';
+import Draggable from 'react-draggable';
+import paper from '../assets/paper.png';
 const iconMap={linkedin:linkedin,
     github: github,
     goodreads: goodreads,
-    "my projects": folder
+    "my projects": folder,
+    "my resume":paper
 }
-export default function Icon({alt,title,link}){
+export default function Icon({alt,title,link, onClick}){
     return(
-        
     <a href={link} target="_blank">
             <div className = "iconBox">
-    <img src={iconMap[title.toLowerCase()]} alt={alt} />
+    <img style= {{}}src={iconMap[title.toLowerCase()]} alt={alt} />
     <p style={{
     display: "flex",
     justifyContent: "center",
@@ -29,6 +31,5 @@ export default function Icon({alt,title,link}){
     >{title}</p>
     </div>
     </a>
-
 );
 }
