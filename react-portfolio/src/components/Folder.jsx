@@ -14,6 +14,7 @@ export default function Icon({alt,title,link}){
 }
     return(
     <>
+    
     <div style={{width:"70%"}}className = "iconBox" onClick={handleClick}>
     <img src={iconMap[title.toLowerCase()]} alt={alt} />
     <p style={{
