@@ -102,7 +102,7 @@ function App() {
 
           }}>
 I'm a first year CS student at TMU. I specialize in building frontend projects with React.js and have experience integrating open source APIs in various projects. I am currently learning fullstack development with express. 
-In my free time I like listening to music, playing guitar and learning Cantonese.
+In my free time I like listening to music, playing guitar and learning Cantonese. I love combining my programming skills with other hobbies to create interesting solutions to my problems
 
           </div>
 
