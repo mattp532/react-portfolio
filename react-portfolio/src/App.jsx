@@ -101,7 +101,9 @@ function App() {
 
 
           }}>
-I'm a first year computer science student studying at Toronto Metropolitan University. I am currently focused on learning frontend development and building dynamic, user-friendly web interfaces. As I grow my skills, I am excited to expand my knowledge and start learning backend development soon to become a full-stack developer
+I'm a first year CS student at TMU. I specialize in building frontend projects with React.js and am learning fullstack development with express. 
+In my free time I like listening to music, playing guitar and learning Cantonese.
+
           </div>
 
         <img style={{
