@@ -101,7 +101,7 @@ function App() {
 
 
           }}>
-I'm a first year CS student at TMU. I specialize in building frontend projects with React.js and am learning fullstack development with express. 
+I'm a first year CS student at TMU. I specialize in building frontend projects with React.js and have experience integrating open source APIs in various projects. I am currently learning fullstack development with express. 
 In my free time I like listening to music, playing guitar and learning Cantonese.
 
           </div>
