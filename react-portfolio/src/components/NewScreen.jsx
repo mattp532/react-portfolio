@@ -6,7 +6,7 @@ export default function NewScreen({exitClick, topBarText,children}){
                         justifyContent:"center",
                         alignItems:"center",
                         backgroundColor:"lightgrey",
-                        flexDirection:"columns",
+                        flexDirection:"column",
                         position:"fixed",
                         height:"75%",
                         width:"70%",

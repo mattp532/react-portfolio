@@ -94,7 +94,7 @@ export default function Icon({ alt, title, link }) {
 
             {isBoxVisible && (
                 <NewScreen styles={{
-                    flexDirection: "columns"
+                    flexDirection: "column"
                 }}
                 topBarText="My Projects" exitClick={handleClick}>
                     <div
