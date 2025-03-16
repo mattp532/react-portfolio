@@ -2,7 +2,8 @@ import Lang from "./Lang";
 
 export default function Project({title, description, languages, link}){
     return(
-        <a href={link} target="_blank" style={{height:"100%"}}>        <div className ="projects"style={{
+        <a className ="projectLink" href={link} target="_blank" style={{height:"100%"
+        }}>        <div className ="projects"style={{
             color:"black",
             backgroundColor:"lightgrey",
             fontFamily:"Windows95Font",
@@ -11,7 +12,6 @@ export default function Project({title, description, languages, link}){
             borderStyle: "outset",
             borderColor: "buttonborder",
             height:"90%",
-            width:"100%"
             
             
         }}>

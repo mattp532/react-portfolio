@@ -4,6 +4,7 @@ export default function({Language}){
         style={{
             width:"auto",
             height:"20%",
+            fontSize:"0.8rem",
             borderWidth: "2px",
             borderStyle: "outset",
             borderColor: "buttonborder",
