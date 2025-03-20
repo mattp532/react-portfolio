@@ -152,10 +152,10 @@ body{
 }
 @media (min-width: 1500px) {
   .projectTitle{
-    font-size: 200%;
+    font-size: 180%;
   }
   .projectDesc{
-    font-size: 150%;
+    font-size: 130%;
   }
   .ProjectGrid {
     grid-template-columns: repeat(3,1fr); /* 1 column */
