@@ -1,10 +1,8 @@
 export default function({Language}){
     return(
-        <p
+        <p className="lang"
         style={{
-            width:"auto",
-            height:"20%",
-            fontSize:"0.8rem",
+            bottom:"0",
             borderWidth: "2px",
             borderStyle: "outset",
             borderColor: "buttonborder",

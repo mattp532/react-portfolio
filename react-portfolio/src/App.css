@@ -52,6 +52,7 @@ body{
   justify-content: center;
   padding-bottom: 0;
   cursor: pointer;
+  width: 55%;
 }
 .iconBox:hover{
   transition: 0.1s;
@@ -72,7 +73,12 @@ body{
   grid-template-rows: repeat(2, 1fr); /* 2 rows */
 }
 @media (max-width: 999px) {
-
+  .projectTitle{
+    font-size: 130%;
+  }
+  .projectDesc{
+    font-size: 90%;
+  }
   .aboutMeScreen{
     flex-direction: column;
   }
@@ -94,7 +100,11 @@ body{
     grid-template-rows: repeat(2, 1fr); /* 2 rows */
     width: 93%; /* Ensure it takes full width */
     margin-top: 24%;
-
+}
+.lang{
+  width:26%;
+  height:30%;
+  font-size:0.7rem;
 }
 
 }
@@ -103,11 +113,22 @@ body{
 }
 /* For medium and larger screens */
 @media (min-width: 1000px) {
+  .projectTitle{
+    font-size: 130%;
+  }
   .ProjectGrid {
     grid-template-columns: repeat(3,1fr); /* 1 column */
     grid-template-rows: repeat(2, 1fr); /* 2 rows */
     margin-top: 8%;
     height: 75%;
+}
+.lang{
+  width:25%;
+  height:30%;
+  font-size:0.7rem;
+}
+.projectDesc{
+  font-size: 100%;
 }
   .projectLink{
     max-width: 100%;
@@ -129,4 +150,44 @@ body{
   }
   
 }
+@media (min-width: 1500px) {
+  .projectTitle{
+    font-size: 200%;
+  }
+  .projectDesc{
+    font-size: 150%;
+  }
+  .ProjectGrid {
+    grid-template-columns: repeat(3,1fr); /* 1 column */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    margin-top: 8%;
+    height: 75%;
+}
+.lang{
+  width:29%;
+  height:30%;
+  font-size:1.2rem;
+}
+  .projectLink{
+    max-width: 100%;
+  }
+  .projects {
+    background-color: lightgreen;
+    max-width: 100%;
+  }
+  .aboutMeScreen{
+    display: block;
+    align-items: flex-start;
+    top: 20%;
+  }
+  .description{
+    font-size: 1.3rem;
+  }
+  .email{
+    display: flex;
+  }
+  
+}
+
+
 
